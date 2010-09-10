@@ -1,4 +1,10 @@
 Djwachou::Application.routes.draw do
+  get "home/index"
+
+  get "home/contact"
+
+  get "home/mix"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
