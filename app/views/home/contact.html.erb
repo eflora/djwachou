@@ -1,2 +1,47 @@
-<h1>Home#contact</h1>
-<p>Find me in app/views/home/contact.html.erb</p>
+<h1>Contactez-nous</h1>
+
+<table>
+    <tr>
+        <td class="label">Votre Nom - Pseudo:</td>
+        <td><%= text_field_tag "name" %></td>
+    </tr>
+    <tr>
+        <td class="label">Adresse E-mail:</td>
+        <td><%= text_field_tag "email" %></td>
+    </tr>
+    <tr>
+        <td class="label">Type d'evenement:</td>
+        <td><%= text_field_tag "email" %></td>
+    </tr>
+    <tr>
+        <td class="label">Date de l'evenement:</td>
+        <td><%= text_field_tag "email" %></td>
+    </tr>
+    <tr>
+        <td class="label">Lieu de l'evenement:</td>
+        <td><%= text_field_tag "email" %></td>
+    </tr>
+    <tr>
+        <td class="label">Nombre de personnes:</td>
+        <td><%= text_field_tag "email" %></td>
+    </tr>
+    <tr>
+        <td class="label">Numero de telephone:</td>
+        <td><%= text_field_tag "email" %></td>
+    </tr>
+    <tr valign="top">
+        <td class="label">Message ou information<br /> complementaire:</td>
+        <td><%= text_area_tag "message" %></td>
+    </tr>
+
+        <td></td>
+        <td><%= submit_tag(" Envoyer ") %></td>
+    </tr>    
+</table>
+    <p><label for="email_message">Message</label><br/>
+<%= text_area 'email', 'message' %></p>
+    <tr>
+
+
+
+
