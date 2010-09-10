@@ -48,7 +48,45 @@ nav
 
 }
 
+nav ul {
+  margin: 0;
+  padding: 0;
+}
 
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0.2em 0;
+}
+
+nav ul li a {
+  padding: 0 5px;
+  font-weight: bold;
+    font-size:23px;
+	color:#fe009e;
+	font-family :ozone;
+	src: url('Ozone.ttf');
+	line-height:29px;
+	padding-left:40px;
+}
+
+nav ul li a:visited {
+
+}
+
+nav ul li a:hover {
+	color:white;
+	font-size : 23px;
+	line-height:25px;
+	/*Transition*/ 
+	-webkit-transition:All .5s ease;
+	-moz-transition:All .5s ease;
+	-o-transition:All .5s ease;
+ 
+	/*Transform*/ 
+	-webkit-transform:  scale(1.2);
+	-moz-transform:  scale(1.2);
+}
 
 
 
@@ -179,35 +217,9 @@ a:hover{
 	color:#f5521b;
 }
 
-nav a
-{
-	font-size:23px;
-	color:#fe009e;
 
-	font-family :ozone;
-	src: url('Ozone.ttf');
-	line-height:29px;
-			padding-left:40px;
-
-			
-			
-}
 	
-nav a:hover
-{
-	color:white;
 
-	font-size : 23px;
-	line-height:25px;
-	/*Transition*/ 
-	-webkit-transition:All .5s ease;
-	-moz-transition:All .5s ease;
-	-o-transition:All .5s ease;
- 
-	/*Transform*/ 
-	-webkit-transform:  scale(1.2);
-	-moz-transform:  scale(1.2);
-}
 
 
 .colLeft{
