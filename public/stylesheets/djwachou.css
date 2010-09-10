@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	background-color:#333;
+	background-image:url(/images/bgWachouC.png);
+	margin: 0px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+header, nav, footer, article, figure, section, audio
+{
+  display: block;
+}
+
+#wrapper
+{
+
+	width:960px;
+	margin:auto;
+}
+
+header 
+{
+	background-image:url(/images/banwachou100.png);
+	background-color:black;
+	background-position:center top;
+	height:100px;	/*Augmente la taille de la baniere... pour placer le player */
+	background-repeat:no-repeat;
+	border: 1px solid black;
+	border-bottom:0px solid pink;
+	background-size:  auto 100%;
+	text-align:right; /*align lecteur a droite */
+	
+}
+
+nav
+{
+	background-image:url(/images/bgWachouC.png);
+	background-repeat:repeat-x;
+	height:20px;
+	text-align:center;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-bottom: 1px solid black;
+
+}
+
+
+
+
+
+/* --- */
+header h1 { 
+  display: inline-block;
+  margin-top: 0;
+  font-family: "NewRegular", "Lucida Grande",Tahoma, "Trebuchet MS", Arial, Helvetica, FreeSans, sans-serif;
+  font-weight: normal;
+  font-size: 80px; 
+  text-align: right;
+  line-height: 0.8;
+  color: white;
+  text-shadow: 0px 0px 5px #fff; 
+  padding: 20px; /* ??? */
+}
+
+h1 a, h1 a:visited {
+  color: white;
+  text-decoration: none;
+}
+h1 a:hover, h1 a:focus {
+  text-decoration: none;
+  outline: none;
+  text-shadow: 0px 0px 15px #fff; 
+  
+}
+
+/* --- end*/ 
+
+
+figure
+{
+
+	background-repeat:no-repeat;
+	background-position: bottom;
+	padding-left:20px;
+	color: white;
+	background-color:rgba(34,159,250,0.2);
+	margin:auto;
+	min-height: 250px;
+
+	min-width: auto;
+		margin-top: 10px;
+		margin-bottom:20px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border: 1px solid rgba(34,159,250,0.2);
+}
+
+
+figure img 
+{
+	border: 0px none;
+}
+
+
+article
+{
+	
+	background-repeat:no-repeat;
+	background-position: bottom;
+	padding:20px;
+	color: white;
+	background-color:rgba(255,255,255,0.2);
+	background-image:url(/images/bgfumi.png);
+	
+	margin:auto;
+	min-height:460px;;
+		margin-top: 10px;
+	-moz-border-radius: 8px 8px 8px 8px;
+	-webkit-border-radius: 8px 8px 8px 8px;
+	border: 1px solid  #e62183;
+	padding-bottom:40px;
+
+
+}
+
+
+
+h1
+{
+	color:#f5521b;
+	font-family :Alien Encounters;
+	src: url('Alien Encounters');
+	text-shadow: 3px 3px 1px black;
+	
+}
+
+section
+{
+	min-height:500px;
+}
+
+article img
+{
+		-webkit-box-shadow: 7px 7px 7px #333;
+}
+footer
+{
+	height:100px;
+	background-color:#63F;
+	text-align:center;
+	line-height:100px;
+	margin-top: 10px;
+	background:url(/images/footer.png);
+}
+
+footer a:hover
+{
+	color:#FFF;
+}
+
+
+footer a
+{
+	color:#000;
+}
+
+a
+{
+	text-decoration:none;
+	color:#fcc52f;
+	
+}
+
+a:hover{
+	color:#f5521b;
+}
+
+nav a
+{
+	font-size:23px;
+	color:#fe009e;
+
+	font-family :ozone;
+	src: url('Ozone.ttf');
+	line-height:29px;
+			padding-left:40px;
+
+			
+			
+}
+	
+nav a:hover
+{
+	color:white;
+
+	font-size : 23px;
+	line-height:25px;
+	/*Transition*/ 
+	-webkit-transition:All .5s ease;
+	-moz-transition:All .5s ease;
+	-o-transition:All .5s ease;
+ 
+	/*Transform*/ 
+	-webkit-transform:  scale(1.2);
+	-moz-transform:  scale(1.2);
+}
+
+
+.colLeft{
+	float:left;
+	max-width:500px;
+}
+
+.colLeft img{
+	-webkit-box-shadow: 0px 0px 0px #333;
+
+}
+
+}
+.colRight{
+	float:right;
+	padding-right:30px;
+
+}
+
+.colRight img{
+	-webkit-box-shadow: 0px 0px 0px #333;
+	padding-top:50px;
+}
+.colRight img:hover{
+		-webkit-transform:  scale(1.2);
+	-moz-transform:  scale(1.2);
+}
+
+@font-face
+{
+	font-family :ozone;
+	src: url('/fonts/Ozone.ttf');
+}
+
+@font-face
+{
+	font-family :Alien Encounters;
+	src: url('/fonts/Alien-Encounters-Regular.ttf');
+}
