@@ -5,7 +5,7 @@ Djwachou::Application.routes.draw do
 
   get "home/mix"
   
-  match '/', :to => 'home#index'
+  #match '/', :to => 'home#index'
 
   match '/mix',   :to => 'home#mix'
   match '/contact',    :to => 'home#contact'
@@ -59,7 +59,7 @@ Djwachou::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+   root :to => "home#index"
 
   # See how all your routes lay out with "rake routes"
 
