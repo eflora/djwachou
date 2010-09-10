@@ -4,7 +4,12 @@ Djwachou::Application.routes.draw do
   get "home/contact"
 
   get "home/mix"
+  
+  match '/', :to => 'home#index'
 
+  match '/mix',   :to => 'home#mix'
+  match '/contact',    :to => 'home#contact'
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
