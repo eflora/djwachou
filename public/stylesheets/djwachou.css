@@ -24,14 +24,14 @@ header, nav, footer, article, figure, section, audio
 
 header 
 {
-	background-image:url(/images/banwachou100.png);
-	background-color:black;
+
+	background-image:url(/images/BanWachou100.png);
 	background-position:center top;
 	height:100px;	/*Augmente la taille de la baniere... pour placer le player */
 	background-repeat:no-repeat;
 	border: 1px solid black;
 	border-bottom:0px solid pink;
-	background-size:  auto 100%;
+
 	text-align:right; /*align lecteur a droite */
 	
 }
